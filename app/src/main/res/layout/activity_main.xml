@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.businesscard.MainActivity">
+    <ImageView
+        android:id="@+id/violin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/violin"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/violino"/>
+    <TextView
+        android:id="@+id/top_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_source_for_classical_music"
+        style="@style/top_music" />
+    <TextView
+        android:id="@+id/top_variation"
+        android:text="@string/variation"
+        style="@style/top_variation" />
+    <TextView
+        android:id="@+id/address"
+        android:text="@string/_3456_rachmaninov_st"
+        style="@style/address" />
+    <TextView
+        android:id="@+id/location"
+        android:text="@string/gr_nburg_da_54321"
+        style="@style/location" />
+    <TextView
+        android:id="@+id/phone"
+        android:text="@string/_985_985_8888"
+        style="@style/phone" />
+    <TextView
+        android:id="@+id/web"
+        android:text="@string/www_variation_com"
+        style="@style/web" />
+    <TextView
+        android:id="@+id/store"
+        android:text="@string/store_opening_hours"
+        style="@style/store" />
+    <TextView
+        android:id="@+id/opening_hours"
+        android:text="@string/monday_sunday_10am_5pm"
+        style="@style/opening" />
+</RelativeLayout>
